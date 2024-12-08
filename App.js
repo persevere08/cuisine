@@ -1,11 +1,10 @@
 "use strict";
-// const ROOT = document.querySelector("#root");
-// const heading = document.createElement("h1");
-// heading.innerHTML= "hello world from js.";
-// ROOT.appendChild(heading);
+import React from "react";
+import ReactDOM from "react-dom/client";
 const ROOT = ReactDOM.createRoot(
     document.getElementById("root")
 );
+
 const Heading = React.createElement(
     "div",
     {id:"parent"},
